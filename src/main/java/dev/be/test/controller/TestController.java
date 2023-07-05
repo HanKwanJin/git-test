@@ -15,4 +15,9 @@ public class TestController {
     public String featureTwo() {
         return "git-test-test";
     }
+
+    @GetMapping("/three")
+    public String featureThree() {
+        return "three";
+    }
 }
